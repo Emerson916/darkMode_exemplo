@@ -33,6 +33,11 @@ body {
     ;
 }
 
+a {
+    text-decoration: none;
+    color: var(--color-headings);
+}
+
 h1 {
     margin: 0;
     color: var(--color-headings);
@@ -44,6 +49,7 @@ p {
     font-size: 1.1em;
     line-height: 1.8em;
     margin-top: 2em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 input[type=checkbox]{
